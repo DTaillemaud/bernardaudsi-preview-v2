@@ -176,7 +176,7 @@
         "caption": "Injection céramique",
         "scroll": "Découvrir BSI",
         "offerTitle": "Trois expertises",
-        "offerIntro": "Bernardaud Solutions Industrielles intervient de l’étude et du prototype jusqu’à la production en série. Les procédés peuvent être utilisés séparément ou combinés sur un même projet industriel.",
+        "offerIntro": "Bernardaud Solutions Industrielles intervient de l’étude et du prototype jusqu’à la production en série. Nos différents procédés peuvent être utilisés séparément ou combinés sur un même projet industriel.",
         "marketsTitle": "Marchés",
         "marketsIntro": "",
         "footerBaseline": "Céramiques techniques, sérigraphie et traitements de surface."
@@ -250,7 +250,7 @@
         },
         "offre": {
           "title": "Offre",
-          "intro": "Bernardaud Solutions Industrielles regroupe trois activités : céramiques techniques, imprimerie sérigraphique, traitements de surface et décoration. Ces capacités peuvent être mobilisées séparément ou conjointement, du prototype à la production en série.",
+          "intro": "Bernardaud Solutions Industrielles regroupe quatre activités : céramiques techniques, imprimerie sérigraphique, décoration et traitements de surface, ainsi que développements industriels spécifiques. Ces capacités peuvent être mobilisées séparément ou conjointement, du prototype à la production en série.",
           "items": [
             {
               "title": "Céramiques techniques",
@@ -266,7 +266,7 @@
             }
           ],
           "support": {
-            "title": "Un cahier des charges, un plan, une pièce",
+            "title": "Développements industriels spécifiques",
             "body": "Vous apportez un cahier des charges, un plan, une pièce ou une fonction recherchée. BSI étudie si tout ou partie de ses procédés peut fournir une solution. Le laboratoire intégré, le bureau d’études et les ateliers de prototypage interviennent à chaque niveau de maturité, de la preuve de concept à la production en série.",
             "button": "Soumettre un besoin"
           }
@@ -1419,7 +1419,7 @@
         "caption": "Ceramic injection",
         "scroll": "Discover BSI",
         "offerTitle": "Three areas of expertise",
-        "offerIntro": "Bernardaud Solutions Industrielles works from the initial study and prototype to series production. The processes can be used separately or combined on a single industrial project.",
+        "offerIntro": "Bernardaud Solutions Industrielles works from the initial study and prototype to series production. Our different processes can be used separately or combined on a single industrial project.",
         "marketsTitle": "Markets",
         "marketsIntro": "",
         "footerBaseline": "Technical ceramics, screen printing and surface treatments."
@@ -1493,7 +1493,7 @@
         },
         "offre": {
           "title": "Offer",
-          "intro": "Bernardaud Solutions Industrielles brings together three activities: technical ceramics, screen printing, and surface treatments and decoration. These capabilities can be used separately or together, from prototype to series production.",
+          "intro": "Bernardaud Solutions Industrielles brings together four activities: technical ceramics, screen printing, decoration and surface treatments, as well as specific industrial developments. These capabilities can be used separately or together, from prototype to series production.",
           "items": [
             {
               "title": "Technical ceramics",
@@ -1509,7 +1509,7 @@
             }
           ],
           "support": {
-            "title": "A specification, a drawing, a part",
+            "title": "Specific industrial developments",
             "body": "You bring a specification, a drawing, a part or a required function. BSI assesses whether all or part of its processes can provide a solution. The in-house laboratory, design office and prototyping workshops work at every maturity level, from proof of concept to series production.",
             "button": "Submit a need"
           }
