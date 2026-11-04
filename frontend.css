@@ -691,3 +691,111 @@ tbody tr:nth-child(even) { background: var(--mist); }
   .reveal { opacity: 1; transform: none; }
   .hero-photo { transform: none; }
 }
+
+/* ===== Version 2 : retours de la relecture de novembre 2026 ===== */
+.offer-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.section-heading.heading-only { grid-template-columns: 1fr; }
+
+/* Trois, cinq ou six étapes : même gabarit pour les trois offres */
+.steps-heading { margin-bottom: 36px; }
+.steps-heading h2 { max-width: 760px; }
+.manufacturing-flow.no-link > article { grid-template-columns: 80px minmax(0, 1fr); }
+.manufacturing-flow h3 { font-size: 26px; line-height: 1.3; margin-bottom: 16px; }
+.manufacturing-flow .flow-number { color: var(--teal); font-size: 13px; padding-top: 10px; }
+
+.overview-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 80px; align-items: center; }
+.overview-layout.no-image { display: block; max-width: 980px; }
+.overview-text p { font-size: 15px; max-width: 780px; }
+.overview-text p + p { margin-top: 20px; }
+.overview-figure { aspect-ratio: 4 / 3; overflow: hidden; background: var(--mist); }
+.overview-figure img { height: 100%; object-fit: cover; }
+.maturity-section { background: var(--mist); }
+.maturity-section .statement-layout > p, .levels-section .statement-layout > p { font-size: 18px; line-height: 1.75; color: var(--navy); max-width: 900px; margin-top: 22px; }
+.maturity-section h2, .levels-section h2 { font-size: 30px; }
+.levels-section { background: var(--mist); }
+
+.media-gallery-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.media-gallery-3 .media-frame { aspect-ratio: 3 / 2; }
+.strips-section { border-top: 1px solid var(--line); }
+.photo-strip + .photo-strip { margin-top: 56px; }
+.photo-strip h3 { font-size: 20px; margin-bottom: 20px; }
+.photo-strip-row { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+.photo-strip-row figure { flex: 0 1 auto; min-width: 0; }
+.photo-strip-row img { width: auto; height: 280px; max-width: 100%; object-fit: cover; }
+.strip-note { margin-top: 32px; font-size: 11px; color: var(--muted); }
+
+/* Présentation générale : certifications et recherche */
+.certification-section { background: var(--mist); }
+.certification-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 80px; align-items: center; }
+.certification-layout p:not(.eyebrow) { margin-top: 20px; font-size: 14px; max-width: 520px; }
+.certification-media { display: grid; gap: 28px; justify-items: start; }
+.certification-logo { width: 240px; height: auto; }
+.certificate-row { display: flex; gap: 24px; flex-wrap: wrap; }
+.certificate { display: block; width: 160px; }
+.certificate img { border: 1px solid var(--line); background: var(--white); height: auto; }
+.certificate span { display: block; margin-top: 10px; font-size: 12px; color: var(--text); }
+.certificate:hover span { color: var(--teal); }
+.research-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: 80px; align-items: center; }
+.research-layout p:not(.eyebrow) { margin-top: 20px; max-width: 640px; font-size: 14px; }
+.research-layout figure { aspect-ratio: 4 / 3; overflow: hidden; background: var(--mist); }
+.research-layout figure img { height: 100%; object-fit: cover; }
+
+/* Outil industriel */
+.site-photos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.site-photos img { aspect-ratio: 4 / 3; object-fit: cover; }
+.site-photos figcaption { padding-top: 12px; font-size: 12px; color: var(--text); }
+.site-photos-section { padding-bottom: 0; }
+.certification-links h2, .partners-layout h2 { font-size: 28px; }
+.certification-links p { margin-top: 14px; font-size: 14px; }
+.certificate-links { display: flex; gap: 32px; flex-wrap: wrap; margin-top: 8px; }
+.partners-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 80px; align-items: center; }
+.partners-layout p { margin-top: 20px; font-size: 14px; max-width: 640px; }
+.partners-layout figure { border: 1px solid var(--line); padding: 20px; display: grid; justify-items: center; }
+.partners-layout figure img { max-width: 380px; height: auto; }
+
+/* Défense : déroulé de la plaquette */
+.capability-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; }
+.capability-columns > div { border-top: 1px solid var(--line); padding-top: 24px; }
+.capability-columns h3 { font-size: 22px; margin-bottom: 14px; }
+.protection-section { border-top: 1px solid var(--line); }
+.armour-system { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 72px; align-items: center; }
+.armour-system figure { background: var(--mist); padding: 24px; display: grid; justify-items: center; }
+.armour-system figure img { max-width: 340px; height: auto; }
+.armour-system h3 { font-size: 22px; margin-bottom: 24px; }
+.armour-system ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+.armour-system li { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 16px; align-items: start; }
+.armour-system li > span { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid var(--teal); border-radius: 50%; color: var(--teal); font-size: 13px; }
+.armour-system li p { font-size: 13px; margin-top: 4px; }
+.material-chips { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 8px; }
+.material-chips > span { font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--teal); }
+.material-chips ul { display: flex; flex-wrap: wrap; gap: 12px; }
+.material-chips li { border: 1px solid var(--line); padding: 8px 16px; font-size: 13px; }
+.closing-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, .6fr); gap: 64px; align-items: center; }
+.closing-layout h2 { font-size: 30px; max-width: 760px; }
+.closing-layout p { margin-top: 14px; }
+.closing-actions { display: grid; gap: 16px; justify-items: start; }
+
+/* Industrie et marchés : applications, message « soumettez-nous votre problème » */
+.showcase-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.showcase-grid img { aspect-ratio: 1; object-fit: cover; background: var(--mist); }
+.showcase-grid figcaption { display: flex; flex-direction: column; gap: 4px; padding-top: 14px; font-size: 13px; }
+.showcase-grid figcaption strong { font-size: 16px; font-weight: 600; }
+.showcase-grid figcaption span { color: var(--text); }
+.submit-section { border-top: 1px solid var(--line); }
+.submit-layout { display: flex; align-items: center; justify-content: space-between; gap: 48px; }
+.submit-layout h2 { font-size: 28px; }
+.submit-layout p { margin-top: 12px; max-width: 640px; font-size: 14px; }
+
+@media (max-width: 1100px) {
+  .overview-layout, .certification-layout, .research-layout, .partners-layout, .armour-system, .closing-layout, .capability-columns { grid-template-columns: 1fr; gap: 40px; }
+  .offer-grid-3, .media-gallery-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-photos, .showcase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .offer-grid-3, .media-gallery-3 { grid-template-columns: 1fr; }
+  .manufacturing-flow.no-link > article { grid-template-columns: 1fr; gap: 14px; }
+  .manufacturing-flow ul { grid-template-columns: 1fr; }
+  .photo-strip-row img { height: 200px; }
+  .submit-layout { flex-direction: column; align-items: flex-start; }
+  .maturity-section .statement-layout > p, .levels-section .statement-layout > p { font-size: 16px; }
+}
