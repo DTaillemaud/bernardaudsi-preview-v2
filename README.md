@@ -4,7 +4,7 @@ Copie du premier apercu (`bernardaudsi-preview`, commit a9327aa) avec les retour
 relecture de novembre 2026. Le premier apercu reste inchange : les deux versions se
 comparent cote a cote.
 
-Apercu statique francais / anglais, 26 pages internes (contre 33), navigation, images
+Apercu statique francais / anglais, 19 pages internes (contre 33), navigation, images
 et preferences locales. Aucun serveur, backoffice, identifiant ou document de relecture
 interne n'est publie.
 
