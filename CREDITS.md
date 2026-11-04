@@ -41,3 +41,11 @@ Les textes de presentation et d'historique du document editorial fourni restent 
 
 - Manrope : licence SIL Open Font License 1.1, copie dans `assets/manrope-OFL.txt`.
 - Lucide : licence ISC, copie dans `assets/lucide-LICENSE`.
+
+### Version 2 (4 novembre 2026)
+
+- Machine SPS, atelier, robots, presses, decoupe jet d'eau, finition, fours, photos de l'imprimerie (couleurs, serigraphie, depose, cuisson), photos d'essais, pieces industrielles (rotor, conteneur, supports de cuisson, moule de gants), logo et certificats ISO : ressources Bernardaud selectionnees pour la relecture. Plusieurs fichiers ont une definition limitee, conservee sans agrandissement.
+- Vues aeriennes des quatre sites, gilet de protection et pieces ceramiques : brochure BSI « Advanced ballistic ceramics ».
+- Depots PVD (plots colores) : ressource Bernardaud.
+- Horlogerie (cadrans, lunettes, bagues, boitiers en zircone) : images generees par IA, indiquees comme telles sur la page. Les images portant un filigrane d'outil l'ont conserve. A confirmer avant toute mise en ligne definitive : conditions d'utilisation de l'outil et ressemblance avec des modeles existants.
+- Schema « ecosysteme de recherche » (Pole europeen de la ceramique, IRCER, CITRA, CTTC) : visuel fourni, logos de leurs titulaires.
